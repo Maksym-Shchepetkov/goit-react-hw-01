@@ -1,0 +1,79 @@
+.profileWrapper {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 16px 16px 0 0;
+  text-align: center;
+  max-width: 530px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.profileImg {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.profileName {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profileTag {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.profileLocation {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  color: grey;
+}
+
+.profileList {
+  margin: 0 auto 30px;
+  max-width: 530px;
+  padding: 0;
+  display: flex;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid grey;
+  border-radius: 0 0 16px 16px;
+  overflow: hidden;
+}
+
+.profileItems {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 10px;
+  background-color: lightgrey;
+  max-width: 100%;
+}
+
+.profileItems:nth-child(even) {
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+.profileSpan {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+}
+
+.profileSpan:nth-child(even) {
+  font-weight: bold;
+}
